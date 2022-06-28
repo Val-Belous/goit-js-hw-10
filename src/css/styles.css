@@ -33,4 +33,31 @@ body {
   flex-direction: column;
   align-items: center;
   width: 300px;
+
+  border: 5px solid gold;
+  border-radius: 25px;
+
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.country-info {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  width: 500px;
+  border: 5px solid gold;
+  border-radius: 25px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.country-name {
+  font-size: 50px;
 }

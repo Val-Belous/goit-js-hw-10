@@ -34,8 +34,8 @@ function listOfCountry(arr) {
 
 function oneCountry(arr) {
   const country = `
-<img src="${arr[0].flags.svg}" alt="${arr[0].name}" width="60">
-<h2>${arr[0].name}</h2>
+<img src="${arr[0].flags.svg}" alt="${arr[0].name}" width="250">
+<h2 class="country-name">${arr[0].name}</h2>
 <p>Capital: <span>${arr[0].capital}</span></p>
 <p>Population: <span>${arr[0].population}</span></p>
 <p>Languages: <span>${arr[0].languages
@@ -43,3 +43,5 @@ function oneCountry(arr) {
     .join(' ,')}</span></p>`;
   countryInfo.innerHTML = country;
 }
+
+export { createMarkup, countryList, countryInfo };
